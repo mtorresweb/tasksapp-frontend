@@ -77,7 +77,7 @@ const EditProject = () => {
         </div>
         <hr />
         <label htmlFor="description" className="description-label">
-          Here goes the description, feel free to use Markdown
+        Here you can add a description of your project, Markdown is supported.
           <TextareaAutosize
             {...register("description")}
             id="description"
